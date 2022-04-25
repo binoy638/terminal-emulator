@@ -1,7 +1,9 @@
 from Command import Command
+import os
 
 
 def execute():
+    dir_list = os.listdir()
     return "fetching files..."
 
 
